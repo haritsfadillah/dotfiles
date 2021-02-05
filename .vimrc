@@ -26,3 +26,13 @@ set smarttab
 " Use auto indentation
 set autoindent
 
+""""""""""""""""""""""""""""""""""""""""""""""""""
+noremap <Up> :echo "Stupid Move!" <CR>
+noremap <Left> :echo "Stupid Move!" <CR>
+noremap <Right> :echo "Stupid Move!" <CR>
+noremap <Down> :echo "Stupid Move!" <CR>
+
+inoremap <Up> :echo "Stupid Move!" <CR>
+inoremap <Left> :echo "Stupid Move!" <CR>
+inoremap <Right> :echo "Stupid Move!" <CR>
+inoremap <Down> :echo "Stupid Move!" <CR>
