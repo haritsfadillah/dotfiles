@@ -36,3 +36,14 @@ inoremap <Up> :echo "Stupid Move!" <CR>
 inoremap <Left> :echo "Stupid Move!" <CR>
 inoremap <Right> :echo "Stupid Move!" <CR>
 inoremap <Down> :echo "Stupid Move!" <CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""
+" Highlight search
+set hlsearch
+
+"""""""""""""""""""""""""""""""""""""""""""""""""
+
+syntax on
+filetype plugin indent on
+set hidden
+set backspace=indent,eol,start
