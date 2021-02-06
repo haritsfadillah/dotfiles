@@ -1,3 +1,6 @@
+! font
+*.font: xft:Ubuntu Mono:size=13:antialias=true
+
 ! special
 *.foreground    : #0fc373
 *.background    : #0a0a0a
@@ -34,4 +37,14 @@
 ! white
 *.color7: #bfbaac
 *.color15: #fdf6e3
+
+! rxvt-unicode
+!URxvt.colorIT: #87af5f
+!URxvt.ColorBD: #d7d7d7
+!URxvt.colorUL: #87afd7
+
+URxvt.scrollBar: false
+URxvt.loginshell: true
+URxvt.visualBell: true
+URxvt.cursorBlink: true
 
