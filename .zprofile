@@ -1,0 +1,2 @@
+# Start X 
+exec startx
