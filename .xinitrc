@@ -35,5 +35,8 @@ fi
 # Set background
 ~/.fehbg &
 
+# Open a terminal
+urxvt &
+
 # Start window manager
 exec dbus-launch leftwm
