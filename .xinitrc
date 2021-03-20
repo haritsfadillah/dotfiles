@@ -36,4 +36,4 @@ fi
 ~/.fehbg &
 
 # Start window manager
-exec xmonad
+exec dbus-launch leftwm
