@@ -106,10 +106,12 @@ alias lsa="ls -la --color=auto"
 alias pyes="pyenv shell "
 alias pyeu="pyenv shell --unset"
 
+alias tmux="tmux attach"
+
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 # Start tmux
-if [[ ! $TERM =~ screen ]]; then
-    exec tmux
-fi
+#if [[ ! $TERM =~ screen ]]; then
+#    exec tmux new -As0
+#fi
