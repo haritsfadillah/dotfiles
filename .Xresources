@@ -1,5 +1,5 @@
 ! font
-*.font: xft:Monaco:size=11:antialias=true
+*.font: xft:Ubuntu Mono:size=12:antialias=true
 
 ! special
 *.foreground    : #0fc373
